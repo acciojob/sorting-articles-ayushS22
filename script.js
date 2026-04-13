@@ -26,7 +26,7 @@ const sortedBands = bands.sort((a, b) => {
 });
 
 // Select UL
-const ul = document.getElementById('band');
+const ul = document.getElementById('bands');
 
 // Render list
 ul.innerHTML = sortedBands
